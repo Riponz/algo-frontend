@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    color: whitesmoke;
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+}
+
+.logo{
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.strategy {
+    margin-top: -10px;
+    width: 100%;
+    padding: 20px;
+}
+
+.watchlist-text{
+    padding: 10px;
+    font-size: xx-large;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
+.strategy-list{
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: xx-large;
+}
+
+.details{
+    font-size: small;
+    font-weight: 700;
+}
+
+.strategy-stock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.stock{
+    font-size: xx-large;
+}
+
+.risk-reward{
+    font-size: large;
+    font-weight: 700;
+}

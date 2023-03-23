@@ -1,0 +1,47 @@
+/* body{} */
+
+.broker{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: max-content;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.broker-tag{
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.broker-select{
+    width: 150px;
+    margin-top: 20px;
+}
+
+.broker > form {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.broker-client-pass, .broker-clientid {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    background: none;
+}
+
+.broker-connect{
+    width: 300px;
+    padding: 5px;
+    margin-top: 20px;
+}

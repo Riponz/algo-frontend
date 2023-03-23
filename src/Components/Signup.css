@@ -1,0 +1,49 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup{
+    width: 400px;
+    height: max-content;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.signup-title{
+    color: black;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.signup > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-email, .signup-password, .signup-phone, .signup-confirm-pass, .signup-name {
+    background:none;
+    border: none;
+    width: 300px;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+}
+
+.signup-submit {
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    padding: 5px;
+}
